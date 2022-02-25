@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 19.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #3c9258;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+
+<body>
+    <a class="btn btn-primary" href="./" role="button">
+        Back
+    </a>
+<div class="about-section">
+  <h1 style="color:rgb(8, 8, 117)"><b>About the Project</b></h1>
+  <h2 style="color:rgb(8, 8, 117)">Predicting Mortgage Backed Securities Prepayment using Machine Learning Methods</h2>
+  <p>A residential mortgage backed securities (MBS), is a fixed income security, and is one of the largest asset classes in the financial market.
+      These securities are sold to investors.Generally, home loans of all types are secured loans. The borrower must offer their property as a security to the lender. 
+      The property mortgaged acts as collateral until the borrower has repaid the loan in full. 
+      Mortgage loans are also commonly known as loans against property.
+  </p>
+  <h3 align="Left" style="color:rgb(8, 8, 117)"><u>Types of Mortgage Backed Securities</u></h3>
+    <p align="Left">1. Pass-Through Participation Certificate- It pays the holders their fair share of both principal and interest payments made on the mortgage bundles.</p>
+    <p align="Left">2. Collateralized Debt Obligation or “pay-through bond”- These are financial tools banks use to repackage individual loans into a product sold to investors on the secondary market. 
+      These packages consist of auto loans, credit card debt, mortgages, or corporate debt. To the investors, these products function like an MBS, even though they may or may not contain mortgages.</p>
+    <p align="Left">3. Collateralized Mortgage Obligation- These complicated investments are constructed by slicing a pool of mortgages into similar risk categories, known as tranches.The least risky tranches have more certain cash flows and a lower degree of exposure to default risk, while riskier tranches have more uncertain cash flows and greater exposure to default risk.</p3>
+
+    <h3 align="Left" style="color:rgb(8, 8, 117)"><u>Machine Learning Contribution</u></h3>
+    <p align="Left">- A mortgage prepayment penalty is a fee that some lenders charge when you pay all or part of your mortgage loan term off early.</p>
+    <p align="Left">- The penalty fee is an incentive for borrowers to pay back their principal slowly over a full term, allowing mortgage lenders to collect interest.</p>
+    <p align="Left">- There are many reasons why borrowers decide to make prepayments on their mortgage loan (many variables influence borrowers’ decision to prepay or not): 
+
+        Borrower characteristics: age, income, creditworthiness, employment status, marital status.
+        
+        Loan characteristics: loan amount, loan age, mortgage interest rate, prepayment penalty, geographical location, property type.
+        
+        Macroeconomic data: housing prices, market mortgage rates, month of the year.
+        </p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Jane" style="width:50%">
+      <div class="container">
+        <h2>Aarushi Gupta</h2>
+        <p class="title">Team Lead</p>
+        <p>aarushi.gupta17@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Mike" style="width:50%">
+      <div class="container">
+        <h2>Omar Sobhy</h2>
+        <p class="title">Team Member</p>
+        <p>omarsobhy10@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="John" style="width:50%">
+      <div class="container">
+        <h2>Vaishnavi Gaikwad</h2>
+        <p class="title">Team Member</p>
+        <p>gaikwad_v@mt.iitr.ac.in</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="John" style="width:50%">
+      <div class="container">
+        <h2>Gaurav Bambal</h2>
+        <p class="title">Team Member</p>
+        <p>gauravbambal14@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="John" style="width:50%">
+      <div class="container">
+        <h2>Tushar Chauhan</h2>
+        <p class="title">Team Member</p>
+        <p>tusar.singh2004@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
